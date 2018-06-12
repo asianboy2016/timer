@@ -51,7 +51,10 @@ class ViewController: UIViewController {
     //startPause outlet to change the start to the pause image
     //この丸いスタートボタンを動く変数
 
+    //@IBOutlet weak var startPauseOutlets: UIButton!
     @IBOutlet weak var startPauseOutlets: UIButton!
+    @IBOutlet weak var pauseButton: UIButton!
+    
     
     //reset outlet to change the shape of resetButton
     @IBOutlet weak var resetButton: UIButton!
@@ -97,7 +100,10 @@ class ViewController: UIViewController {
     
     
    // @IBAction func startPausePressed(_ sender: AnyObject) {
-    @IBAction func startPausePressed(_ sender: Any) {
+    @IBAction func startPausePressed(_ sender: Any)
+    
+        
+    {
     
     
        if startPauseButtonStateCheck{
