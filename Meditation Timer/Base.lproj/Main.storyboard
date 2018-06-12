@@ -45,6 +45,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0i-jZ-PQu">
+                                <rect key="frame" x="43" y="266" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="pausebutton" image="pauseButton.png"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDS-cR-wXd">
                                 <rect key="frame" x="16" y="173" width="42" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -176,7 +181,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="start" image="start.png"/>
                                 <connections>
-                                    <action selector="startPausePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WUJ-PH-Ukb"/>
+                                    <action selector="startPausePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4L-if-96L"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -205,7 +210,9 @@
                         <outlet property="button70Highlighted" destination="bb9-gK-aTx" id="e9T-on-FK5"/>
                         <outlet property="button80Highlighted" destination="PKY-R1-awp" id="9HQ-9Y-AlB"/>
                         <outlet property="button90Highlighted" destination="ZuO-86-a8D" id="bOq-4i-T69"/>
+                        <outlet property="pauseButton" destination="vQh-cc-UOe" id="YoC-GS-Y6r"/>
                         <outlet property="resetButton" destination="hmw-zR-8vG" id="h72-sD-5hd"/>
+                        <outlet property="startPauseOutlets" destination="vQh-cc-UOe" id="29l-iP-6Md"/>
                         <outlet property="timeDisplayLabel" destination="XSE-m1-ZEH" id="VVw-TH-AXJ"/>
                     </connections>
                 </viewController>
@@ -236,6 +243,7 @@
         <image name="button70Highlighted.png" width="54" height="54"/>
         <image name="button80Highlighted.png" width="54" height="54"/>
         <image name="button90Highlighted.png" width="54" height="54"/>
+        <image name="pauseButton.png" width="300" height="300"/>
         <image name="start.png" width="300" height="300"/>
     </resources>
 </document>
