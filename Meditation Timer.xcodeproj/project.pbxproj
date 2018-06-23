@@ -37,6 +37,7 @@
 		F8EE1B2E20455C8E00CF28F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EE1B2C20455C8E00CF28F8 /* LaunchScreen.storyboard */; };
 		F8EE1B3920455C8F00CF28F8 /* Meditation_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE1B3820455C8F00CF28F8 /* Meditation_TimerTests.swift */; };
 		F8EE1B4420455C8F00CF28F8 /* Meditation_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE1B4320455C8F00CF28F8 /* Meditation_TimerUITests.swift */; };
+		F8EE752620DE3986008D5A59 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EE752520DE37C8008D5A59 /* pauseButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +83,6 @@
 		F88E2A5820B401C300D92FC8 /* Oval 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 3.png"; sourceTree = "<group>"; };
 		F88E2A5920B401C300D92FC8 /* PAUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PAUSE.png; sourceTree = "<group>"; };
 		F88E2A5A20B401C300D92FC8 /* Meditation Timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meditation Timer.png"; sourceTree = "<group>"; };
-		F88E2A5B20B401C300D92FC8 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 		F88E2A5C20B401C400D92FC8 /* oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oval.png; sourceTree = "<group>"; };
 		F8E5CEC520C10A5A001C3478 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		F8EE1B2020455C8E00CF28F8 /* Meditation Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +98,7 @@
 		F8EE1B3F20455C8F00CF28F8 /* Meditation TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EE1B4320455C8F00CF28F8 /* Meditation_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TimerUITests.swift; sourceTree = "<group>"; };
 		F8EE1B4520455C8F00CF28F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EE752520DE37C8008D5A59 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 				F88E2A3420B4019B00D92FC8 /* 90.png */,
 				F88E2A3C20B4019C00D92FC8 /* bg.png */,
 				F8E5CEC520C10A5A001C3478 /* start.png */,
+				F8EE752520DE37C8008D5A59 /* pauseButton.png */,
 				F88E2A4020B4019D00D92FC8 /* button15Highlighted.png */,
 				F88E2A2C20B4019A00D92FC8 /* button20Highlighted.png */,
 				F88E2A3920B4019C00D92FC8 /* button25Highlighted.png */,
@@ -155,7 +157,6 @@
 				F88E2A5820B401C300D92FC8 /* Oval 3.png */,
 				F88E2A5C20B401C400D92FC8 /* oval.png */,
 				F88E2A5920B401C300D92FC8 /* PAUSE.png */,
-				F88E2A5B20B401C300D92FC8 /* pauseButton.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -327,6 +328,7 @@
 				F88E2A4720B4019D00D92FC8 /* button30Highlighted.png in Resources */,
 				F88E2A4C20B4019D00D92FC8 /* button80Highlighted.png in Resources */,
 				F88E2A5320B4019D00D92FC8 /* 40.png in Resources */,
+				F8EE752620DE3986008D5A59 /* pauseButton.png in Resources */,
 				F88E2A4920B4019D00D92FC8 /* 45.png in Resources */,
 				F8EE1B2E20455C8E00CF28F8 /* LaunchScreen.storyboard in Resources */,
 				F88E2A5020B4019D00D92FC8 /* button90Highlighted.png in Resources */,

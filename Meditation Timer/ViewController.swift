@@ -53,7 +53,9 @@ class ViewController: UIViewController {
 
     //@IBOutlet weak var startPauseOutlets: UIButton!
     @IBOutlet weak var startPauseOutlets: UIButton!
-    @IBOutlet weak var pauseButton: UIButton!
+    
+    
+    
     
     
     //reset outlet to change the shape of resetButton
@@ -64,11 +66,13 @@ class ViewController: UIViewController {
     
     //var to check the state of the startPauseButton to display the correct image
     var startPauseButtonStateCheck = true
-    
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    
         //hide all highlighted imageviews that are around the start Pause button
         //上のoverride func viewDidLoadで一番最初の画面を出す。その時は紫丸のボタンは隠れている状態にする
         button15Highlighted.isHidden = true
@@ -101,15 +105,13 @@ class ViewController: UIViewController {
     
    // @IBAction func startPausePressed(_ sender: AnyObject) {
     @IBAction func startPausePressed(_ sender: Any)
-    
-        
     {
     
     
        if startPauseButtonStateCheck{
         //udemyでは最後！だが、？にした方が良いと表示された・・・ので、？にしたら、動かなかったので!でやり直したら、動いた。しかし、結局、?でも動いたので、?で通してみる。
             //下記のif文がおかしいのか、startとpause両方の画像が出ない
-        let pause = UIImage(named: "pauseButton") as UIImage?
+        let pause = UIImage(named: "pausebutton") as UIImage?
         startPauseOutlets.setImage(pause, for: .normal)
         startPauseButtonStateCheck = false
         
@@ -121,5 +123,6 @@ class ViewController: UIViewController {
     
     
 }
-}
+
 //技っとハブ初心者
+}
